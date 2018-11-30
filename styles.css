@@ -53,3 +53,41 @@ body {
     background-repeat: no-repeat;
     /* border-radius: 50%; */
 }
+
+.mobile-controller {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 60vw;
+    width: 63vw;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: -20vw;
+}
+
+.mobile-controller > .arrows > * {
+    margin: 0 auto;
+}
+
+.arrow {
+    width: 5vw;
+    height: 5vw;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.spacer {
+    padding: 10vw 0;
+}
+
+.left-and-right-arrows {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-and-right-arrows > * {
+    margin: 0 10vw;
+}

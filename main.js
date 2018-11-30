@@ -1,6 +1,8 @@
-// if ('ontouchstart' in document.documentElement) {
-//     document.doc
-// }
+if ('ontouchstart' in document.documentElement) {
+    const elem = document.querySelector('.mobile-controller').style.display = 'flex';
+    // alert('why is this running?');
+
+}
 
 let score = 0;
 
