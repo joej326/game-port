@@ -1,5 +1,5 @@
 if ('ontouchstart' in document.documentElement) {
-    alert('hello');
+    
 }
 
 let score = 0;
