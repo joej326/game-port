@@ -77,10 +77,11 @@ body {
     height: 5vw;
     background-color: white;
     border-radius: 50%;
+    padding: 3vw;
 }
 
 .spacer {
-    padding: 10vw 0;
+    padding: 16vw 0;
 }
 
 .left-and-right-arrows {

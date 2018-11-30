@@ -48,6 +48,21 @@ startInterval();
 
 let playerTop = 0;
 let playerLeft = 0;
+document.addEventListener('click', (e) => {
+    console.log(e);
+
+    if (e.path[0].classList[1] === 'up-arrow') {
+        player.style.top = (playerTop -= 5) + 'vw';
+    } else if (e.path[0].classList[1] === 'down-arrow') {
+        player.style.top = (playerTop += 5) + 'vw';
+    } else if (e.path[0].classList[1] === 'left-arrow') {
+        player.style.left = (playerLeft -= 5) + 'vw';
+        player.style.transform = 'rotateY(0deg)';
+    } else if (e.path[0].classList[1] === 'right-arrow') {
+        player.style.left = (playerLeft += 5) + 'vw';
+        player.style.transform = 'rotateY(180deg)';
+    }
+});
 
 document.addEventListener('keydown', (e) => {
     if (e.code === 'ArrowUp') {
