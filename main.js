@@ -1,6 +1,6 @@
-if ('ontouchstart' in document.documentElement) {
-    
-}
+// if ('ontouchstart' in document.documentElement) {
+//     document.doc
+// }
 
 let score = 0;
 
