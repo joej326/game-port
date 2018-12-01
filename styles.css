@@ -24,11 +24,11 @@ button {
     transform: translate(-50%, -50%);
     width: 10vw;
     height: 10vw;
-    background: url('./images/bob.png');
+    background: url('./images/me.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: -3.5vw;
-    background-position-y: 0.5vw;
+    /* background-position-x: -3.5vw; */
+    /* background-position-y: 0.5vw; */
     transform: rotateY(180deg);
     position: absolute;
     margin: 5vw;
