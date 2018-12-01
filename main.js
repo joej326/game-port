@@ -121,9 +121,7 @@ function generatePowerUp() {
 
 function generateHazard(direction) {
     let topStart;
-    let topFinish;
     let leftStart;
-    let leftFinish;
     if (direction === 'leftToRight') {
         leftStart = '-15vw';
         topStart = (Math.floor(Math.random() * Math.floor(99)).toString() + 'vh');
