@@ -102,11 +102,11 @@ button {
     height: 5vw;
     background-color: white;
     border-radius: 50%;
-    padding: 3vw;
+    padding: 6vw;
 }
 
 .spacer {
-    padding: 20vw 0;
+    padding: 12vw 0;
 }
 
 .left-and-right-arrows {
@@ -115,7 +115,7 @@ button {
     align-items: center;
 }
 .left-and-right-arrows > * {
-    margin: 0 10vw;
+    margin: 0 6vw;
 }
 
 
