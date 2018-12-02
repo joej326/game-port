@@ -63,8 +63,8 @@ button {
     display: none;
     justify-content: center;
     align-items: center;
-    height: 42vh;
-    width: 73vw;
+    height: 64vw;
+    width: 64vw;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     position: absolute;
@@ -72,6 +72,25 @@ button {
     left: 50%;
     bottom: -30vw;
     z-index: 100;
+}
+
+@media screen and (orientation:landscape) {
+    .mobile-controller {
+        left: 17% !important;
+        height: 30vw !important;
+        width: 30vw !important;  
+        bottom: -14vw !important;
+    }
+
+    .spacer {
+        display: none !important;
+    }
+    .arrow {
+        padding: 2vw !important;
+    }
+    .left-and-right-arrows > * {
+        margin:  0 4vw !important;
+    }
 }
 
 .mobile-controller > .arrows > * {
