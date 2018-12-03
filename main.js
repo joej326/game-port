@@ -75,7 +75,7 @@ function movePlayer() {
     });
     document.querySelector('.mobile-controller').addEventListener('touchstart', (e) => {
         // console.log(e);
-        // alert('tocuhed');
+        alert('tocuhed');
     
         if (e.path[0].classList[1] === 'up-arrow') {
             player.style.top = (playerTop -= 5) + 'vw';
