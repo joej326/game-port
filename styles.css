@@ -103,6 +103,7 @@ button {
     background-color: white;
     border-radius: 50%;
     padding: 6vw;
+    cursor: pointer;
 }
 
 .spacer {
