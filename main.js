@@ -73,7 +73,7 @@ function movePlayer() {
         }, 200);
         scoreKeeperElem.innerHTML = 'Score: ' + score;
     });
-    document.querySelector('.mobile-controller').addEventListener('touchstart', (e) => {
+    document.querySelector('.mobile-controller').addEventListener('touchstart tap', (e) => {
         // console.log(e);
     
         if (e.path[0].classList[1] === 'up-arrow') {
